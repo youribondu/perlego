@@ -2,6 +2,10 @@
 
 ![Build](https://github.com/youribondu/perlego/workflows/API%20Build/badge.svg?branch=master)
 
+## First of all
+
+Update the file ./api/env/dev.env with your database information (host, port, username, password, database name)
+
 ## Install the Application
 
 Run this command from the root directory:

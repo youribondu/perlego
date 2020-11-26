@@ -3,6 +3,10 @@
 ![Tests](https://github.com/youribondu/perlego/workflows/APP%20Tests/badge.svg?branch=master)
 ![Build](https://github.com/youribondu/perlego/workflows/APP%20Build/badge.svg?branch=master)
 
+## First of all
+
+Update the file ./app/srv/env/vars.dev.js with your api server information (API_URL)
+
 ## Install the Application
 
 Run this command from the root directory:
