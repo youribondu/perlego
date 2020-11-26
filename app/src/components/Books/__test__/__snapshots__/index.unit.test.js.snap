@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Books Component Matches snapshot empty 1`] = `
+<div
+  className="infinite-scroll-component__outerdiv"
+  style={Object {}}
+>
+  <div
+    className="infinite-scroll-component "
+    style={
+      Object {
+        "WebkitOverflowScrolling": "touch",
+        "height": "auto",
+        "overflow": "auto",
+      }
+    }
+  >
+    <ul
+      className="p-books"
+    />
+    <p
+      className="p-books__end"
+    >
+      <b
+        data-testid="books-end-message"
+      >
+        You have seen it all
+      </b>
+    </p>
+  </div>
+</div>
+`;

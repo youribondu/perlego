@@ -1,0 +1,24 @@
+@import "../../styles/index.scss";
+@import "react-lazy-load-image-component/src/effects/blur.css";
+
+.p-book {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+  img {
+    width: 100%;
+    border-radius: $border-radius;
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+
+    p {
+      color: $color-grey;
+    }
+  }
+}

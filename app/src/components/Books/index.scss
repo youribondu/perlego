@@ -1,0 +1,27 @@
+@import "../../styles/index.scss";
+
+.p-books {
+  display: grid;
+  gap: rem(15) calc(16.67% - 160px);
+  width: 100%;
+  grid-template-columns: repeat(6, minmax(0px, 1fr));
+
+  &__book {
+    @include card(true);
+    margin: rem(10);
+  }
+
+  &__end {
+    display: flex;
+    justify-content: center;
+    b {
+      color: $color-primary;
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .p-books {
+    grid-template-columns: repeat(2, minmax(0px, 1fr));
+  }
+}

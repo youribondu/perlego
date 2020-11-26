@@ -1,0 +1,38 @@
+body {
+  margin: 0 !important;
+  font-family: $font-family;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+ul {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+li {
+  list-style: none !important;
+}
+
+h1 {
+  font-family: $font-brand;
+  color: $color-grey;
+  font-size: $font-size-x-large;
+}
+
+h2,
+h3 {
+  font-family: $font-family;
+}
+
+h3 {
+  font-size: $font-size-small;
+}
+
+p {
+  font-size: $font-size-x-small;
+  font-weight: $font-weight-small;
+  margin: 0;
+}

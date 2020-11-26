@@ -1,0 +1,11 @@
+@import "../../styles/index.scss";
+
+.p-app {
+  display: flex;
+  justify-content: center;
+
+  &__books {
+    @include wrapper();
+    width: 100%;
+  }
+}

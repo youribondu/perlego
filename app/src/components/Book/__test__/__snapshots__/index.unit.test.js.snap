@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Book Component Matches snapshot empty 1`] = `
+<div
+  className="p-book"
+>
+  <span
+    className=" lazy-load-image-background blur"
+    style={
+      Object {
+        "backgroundImage": "",
+        "backgroundSize": "",
+        "color": "transparent",
+        "display": "inline-block",
+        "height": undefined,
+        "width": undefined,
+      }
+    }
+  >
+    <span
+      className=""
+      style={
+        Object {
+          "display": "inline-block",
+        }
+      }
+    />
+  </span>
+  <div
+    className="p-book__info"
+  >
+    <h3
+      data-testid="book-title"
+    >
+      
+    </h3>
+    <p
+      data-testid="book-author"
+    />
+  </div>
+</div>
+`;
+
+exports[`Book Component Matches snapshot with props 1`] = `
+<div
+  className="p-book"
+>
+  <span
+    className=" lazy-load-image-background blur"
+    style={
+      Object {
+        "backgroundImage": "",
+        "backgroundSize": "",
+        "color": "transparent",
+        "display": "inline-block",
+        "height": undefined,
+        "width": undefined,
+      }
+    }
+  >
+    <span
+      className=""
+      style={
+        Object {
+          "display": "inline-block",
+        }
+      }
+    />
+  </span>
+  <div
+    className="p-book__info"
+  >
+    <h3
+      data-testid="book-title"
+    >
+      title
+    </h3>
+    <p
+      data-testid="book-author"
+    >
+      author1
+    </p>
+  </div>
+</div>
+`;

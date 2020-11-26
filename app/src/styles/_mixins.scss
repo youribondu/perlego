@@ -1,0 +1,20 @@
+@mixin card($hover: true) {
+  background-color: $color-light;
+  border: none;
+  border-radius: $border-radius;
+  padding: spacing(2);
+
+  @if ($hover == true) {
+    cursor: pointer;
+
+    &:hover {
+      background-color: $color-background;
+      transform: scale(1.05);
+    }
+  }
+}
+
+@mixin wrapper {
+  max-width: rem(1200);
+  padding: rem(10);
+}
